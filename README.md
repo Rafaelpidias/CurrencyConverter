@@ -1,12 +1,12 @@
-<h1 align="center">Projeto Cafeteria</h1>
+<h1 align="center">CurrencyConverter</h1>
 <br>
-<p>Nesse projeto foi realizado um site para cafeteria mostrando seus principais produtos, numa tela dinâmica realizando novos conceitos de CSS.
-Um projeto simples mas que mostra o resultado de um site charmoso e com grandes desafios no html.Com a grande ajuda do <a href="https://www.youtube.com/results?search_query=devclub+cafeteria">Rodolfo Mori</a>.</p>
+<p>Nesse projeto foi realizado um conversor de moedas, para principais moedas da atualidade. Não está em contato direto com o servidor. Mas conseguimos ter uma base de como funciona a lógica de programação dentro do JavaScript. Trabalhar com micro avanços para chegarmos no objetivo.
+
 <br>
 <p>Tecnologias usadas:</p>
 <br>
 :computer:
-<img width="65%" src="">
+<img width="65%" src="https://github.com/Rafaelpidias/CurrencyConverter/blob/master/assets/PrintConverter.PNG?raw=true">
 
 <br>
 <br>
