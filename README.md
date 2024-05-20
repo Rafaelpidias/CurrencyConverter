@@ -6,7 +6,7 @@
 <p>Tecnologias usadas:</p>
 <br>
 :computer:
-<img width="55%" height="20%" src="https://github.com/Rafaelpidias/CurrencyConverter/blob/master/assets/PrintConverter.PNG?raw=true">
+<img width="45%" height="20%" src="https://github.com/Rafaelpidias/CurrencyConverter/blob/master/assets/PrintConverter.PNG?raw=true">
 
 <br>
 <br>
