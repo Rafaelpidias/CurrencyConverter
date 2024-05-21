@@ -11,6 +11,7 @@
 <br>
 :computer:
 <img width="30%" height="20%"  src="https://github.com/Rafaelpidias/CurrencyConverter/blob/master/assets/PrintConverter.PNG?raw=true">
+<video src=".assets/JWS_VIDEO.mp4"
 
 <br>
 <br>
