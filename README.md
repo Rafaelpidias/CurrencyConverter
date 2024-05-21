@@ -1,6 +1,7 @@
 <h1 align="center">CurrencyConverter</h1>
 <br>
 <p>Nesse projeto foi realizado um conversor de moedas, para principais moedas da atualidade. Não está em contato direto com o servidor. Mas conseguimos ter uma base de como funciona a lógica de programação dentro do JavaScript. Trabalhar com micro avanços para chegarmos no objetivo.
+Consegui inserir de todas as moedas tanto no primeiro select quanto no segundo.
 
 <br>
 <p>Tecnologias usadas:</p>
@@ -11,11 +12,7 @@
 <br>
 :computer:
 <img width="30%" height="20%"  src="https://github.com/Rafaelpidias/CurrencyConverter/blob/master/assets/PrintConverter.PNG?raw=true">
-<video src=".assets/JWS_VIDEO.mp4"
 
-<br>
-<br>
-:iphone:
-<br>
-<img align="left" src="">
+
+
 
