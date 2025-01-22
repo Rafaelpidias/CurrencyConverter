@@ -1,175 +1,138 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
-    outline: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  outline: none;
 }
 
-
 body {
-    background: url("https://www.inviertaparaganar.com/blog/wp-content/uploads/2014/12/bolsa-de-valores.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 60px;
-    min-height: 100vh;
-
-
+  background: url("https://www.inviertaparaganar.com/blog/wp-content/uploads/2014/12/bolsa-de-valores.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+  min-height: 100vh;
 }
 
 .img-real {
-    position: absolute;
-    width: 40px;
-    top: 25px;
-    left: 85%;
-    cursor: pointer;
-    border-radius: 50%;
-
-
+  position: absolute;
+  width: 40px;
+  top: 25px;
+  left: 85%;
+  cursor: pointer;
+  border-radius: 50%;
 }
 
 .img-usa {
-    position: absolute;
-    width: 40px;
-    top: 120px;
-    left: 85%;
-    cursor: pointer;
-    border-radius: 50%;
-
-
+  position: absolute;
+  width: 40px;
+  top: 120px;
+  left: 85%;
+  cursor: pointer;
+  border-radius: 50%;
 }
-
 
 main {
-    width: 375px;
-    background-color: #0f498bf4;
-    border-radius: 20px;
-    /*não adicionou height pois vai aumentando com a inserção de elementos*/
-    /*por padrão main/div é display block*/
-    margin: 0 auto;
-    padding: 45px 24px 23px;
-    /* em cima lados e embaixo*/
-    backdrop-filter: blur(20px);
-    background: transparent;
-
+  width: 375px;
+  background-color: #0f498bf4;
+  border-radius: 20px;
+  /*não adicionou height pois vai aumentando com a inserção de elementos*/
+  /*por padrão main/div é display block*/
+  padding: 45px 24px 23px;
+  margin:0 auto;
+  /* em cima lados e embaixo*/
+  backdrop-filter: blur(20px);
+  background: transparent;
 }
-
-
 
 label {
-    color: #fff;
-    font-weight: 400;
-    font-size: 14px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
 }
-
-
 
 select,
 input {
-    background: #3f9bd1;
-    border: 1px solid #bbbbbb;
-    height: 48px;
-    border-radius: 4px;
-    width: 100%;
-    /* 100% para ocupar todo espaço da tela e o padding segura nas laterais*/
-    margin-bottom: 24px;
-    appearance: none;
-    /*elimina a seta lateral */
-    padding-left: 18px;
-    font-weight: 700;
-    font-size: 16px;
-    color: #050101;
-    cursor: pointer;
-    margin-top: 3px;
-
-
-
+  background: #3f9bd1;
+  border: 1px solid #bbbbbb;
+  height: 48px;
+  border-radius: 4px;
+  width: 100%;
+  /* 100% para ocupar todo espaço da tela e o padding segura nas laterais*/
+  margin-bottom: 24px;
+  appearance: none;
+  /*elimina a seta lateral */
+  padding-left: 18px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #050101;
+  cursor: pointer;
+  margin-top: 3px;
 }
-
 
 input::placeholder {
-    color: #050101;
-
-
+  color: #050101;
 }
 
-
-
-
 button {
-    width: 100%;
-    background-color: #772FD3;
-    height: 48px;
-    border-radius: 5px;
-    color: #FFFFFF;
-    font-size: 18px;
-    font-weight: 700;
-    border: none;
-    box-shadow: 0px 10px 24px 0px rgba(0, 0, 0, 0.25);
-    cursor: pointer;
-
+  width: 100%;
+  background-color: #772fd3;
+  height: 48px;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  box-shadow: 0px 10px 24px 0px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
 }
 
 button:hover {
-    opacity: 0.8;
-
-
+  opacity: 0.8;
 }
 
 button:active {
-
-    opacity: 0.6;
+  opacity: 0.6;
 }
 
 section {
-    width: 100%;
-    border-radius: 20px;
-    border: 1px solid #772FD3;
-    margin-top: 36px;
-    padding: 12px;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    display: flex;
-
+  width: 100%;
+  border-radius: 20px;
+  border: 1px solid #772fd3;
+  margin-top: 36px;
+  padding: 12px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
 }
 
 .arrow-img {
     margin: 15px 0;
 
-
 }
 
 .currency-box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 6px;
-    /*distancia todos itens entre eles*/
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  /*distancia todos itens entre eles*/
 }
 
 .currency {
-
-    color: #050000;
-    font-size: 14px;
-    font-weight: 700;
-
-
+  color: #050000;
+  font-size: 14px;
+  font-weight: 700;
 }
-
-
 
 .currency-value,
 .currency-value-to-convert {
-    color: #050000;
-    font-weight: 700;
-    font-size: 20px;
-
-
-
+  color: #050000;
+  font-weight: 700;
+  font-size: 20px;
 }
